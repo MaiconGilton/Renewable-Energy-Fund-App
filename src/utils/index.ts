@@ -1,3 +1,7 @@
+export function validateEmail(email: string) {
+  const emailPattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+  return String(email).toLowerCase().match(emailPattern)
+}
 
 export function getRandomNumber(min: number, max: number) {
   if (typeof min !== 'number' || typeof max !== 'number') {
