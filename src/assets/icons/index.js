@@ -1,4 +1,5 @@
 export { default as ArrowBackIcon } from './arrow-back.svg'
+export { default as CarbonCreditsIcon } from './carbon-credits.svg'
 export { default as CCheckedIcon } from './checkbox-checked.svg'
 export { default as CUncheckedIcon } from './checkbox-unchecked.svg'
 export { default as ChevronDownIcon } from './chevron-down.svg'
