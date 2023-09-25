@@ -2,6 +2,7 @@ import { HomeIcon, PortfolioIcon, TradeIcon } from '@assets/icons';
 import { initModalService } from '@components/CustomModal';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
+import FundDetailScreen from '@screens/fund-detail';
 import HomeScreen from '@screens/home';
 import LoginScreen from '@screens/login';
 import PortfolioScreen from '@screens/portfolio';
