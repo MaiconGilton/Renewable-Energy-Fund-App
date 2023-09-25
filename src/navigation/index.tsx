@@ -8,6 +8,7 @@ import PortfolioScreen from '@screens/portfolio';
 import SignUpScreen from '@screens/signup';
 import TradeScreen from '@screens/trade';
 import UserProfileScreen from '@screens/user-profile';
+import { initDatabase } from '@services/database';
 import { THEME_COLORS } from '@theme/colors';
 import { THEME_FONTS } from '@theme/fonts';
 import React from 'react';
@@ -91,6 +92,7 @@ function AppStack() {
 
 export function Navigator() {
   initModalService()
+  initDatabase()
 
   return (
     <Stack.Navigator
