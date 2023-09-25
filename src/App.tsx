@@ -1,3 +1,4 @@
+import { Navigator } from '@navigation';
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
 import { SafeAreaView } from 'react-native';
@@ -14,7 +15,7 @@ function App(): JSX.Element {
       >
         <SafeAreaView style={{ flex: 1 }}>
           <NavigationContainer>
-
+            <Navigator />
           </NavigationContainer>
         </SafeAreaView>
       </PersistGate>
