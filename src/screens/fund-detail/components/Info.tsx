@@ -12,7 +12,7 @@ interface Props {
 
 const Info = (props: Props) => {
   const {
-    chartData,
+    chartData
   } = props
 
   const {

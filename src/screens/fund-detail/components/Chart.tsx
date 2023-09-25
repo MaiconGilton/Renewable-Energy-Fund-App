@@ -9,7 +9,7 @@ import Info from './Info';
 
 interface Props {
   title: string
-  historicalData: THistoricalData,
+  historicalData: THistoricalData
 }
 
 const SCREEN_WIDTH = Dimensions.get('window').width
@@ -17,7 +17,7 @@ const SCREEN_WIDTH = Dimensions.get('window').width
 const Chart = (props: Props) => {
   const {
     historicalData,
-    title,
+    title
   } = props
 
   const [chartData, setChartData] = React.useState(historicalData)
@@ -124,5 +124,5 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 4,
     marginBottom: 20
-  },
+  }
 })

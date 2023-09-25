@@ -2,8 +2,7 @@ import CustomHeader from '@components/CustomHeader'
 import CustomText from '@components/CustomText'
 import { THEME_COLORS } from '@theme/colors'
 import React from 'react'
-import { StyleSheet } from 'react-native'
-import { ScrollView } from 'react-native-gesture-handler'
+import { ScrollView, StyleSheet } from 'react-native'
 
 const PortfolioScreen = () => {
   return (
