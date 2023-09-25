@@ -17,3 +17,12 @@ export function getRandomNumber(min: number, max: number) {
   const randomNumber = Math.random() * (max - min) + min;
   return randomNumber
 }
+
+export function formatToCurrency(value: number) {
+  const USDollar = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD'
+  })
+
+  return USDollar.format(value)
+}
