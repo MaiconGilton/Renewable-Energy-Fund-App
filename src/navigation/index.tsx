@@ -9,6 +9,7 @@ import SignUpScreen from '@screens/signup';
 import TradeScreen from '@screens/trade';
 import UserProfileScreen from '@screens/user-profile';
 import { initDatabase } from '@services/database';
+import { useAppSelector } from '@store/hooks';
 import { THEME_COLORS } from '@theme/colors';
 import { THEME_FONTS } from '@theme/fonts';
 import React from 'react';
@@ -93,6 +94,7 @@ function AppStack() {
 export function Navigator() {
   initModalService()
   initDatabase()
+  const { user } = useAppSelector(state => state.user)
 
   return (
     <Stack.Navigator
