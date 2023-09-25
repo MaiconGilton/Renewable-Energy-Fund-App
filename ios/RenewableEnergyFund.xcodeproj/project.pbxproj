@@ -12,12 +12,12 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-RenewableEnergyFund-RenewableEnergyFundTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RenewableEnergyFund-RenewableEnergyFundTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		DE0899A0FB234890864BADB9 /* Sora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6904680A6AB44777963F3E51 /* Sora-Bold.ttf */; };
 		310286F43B9A4AAE9F4E9B8D /* Sora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3C595ECAD9345CA97C6064F /* Sora-Medium.ttf */; };
 		63D05B815A8C4E27AA022234 /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8803C1E23FFE4AB1814744F5 /* Sora-Regular.ttf */; };
+		7699B88040F8A987B510C191 /* libPods-RenewableEnergyFund-RenewableEnergyFundTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RenewableEnergyFund-RenewableEnergyFundTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B8DFE9E6FC054CD6A2CF5C92 /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C371F78BC8BC4CEFA52D40B6 /* Sora-SemiBold.ttf */; };
+		DE0899A0FB234890864BADB9 /* Sora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6904680A6AB44777963F3E51 /* Sora-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,13 +45,13 @@
 		5709B34CF0A7D63546082F79 /* Pods-RenewableEnergyFund.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RenewableEnergyFund.release.xcconfig"; path = "Target Support Files/Pods-RenewableEnergyFund/Pods-RenewableEnergyFund.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RenewableEnergyFund-RenewableEnergyFundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RenewableEnergyFund-RenewableEnergyFundTests.debug.xcconfig"; path = "Target Support Files/Pods-RenewableEnergyFund-RenewableEnergyFundTests/Pods-RenewableEnergyFund-RenewableEnergyFundTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RenewableEnergyFund.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RenewableEnergyFund.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6904680A6AB44777963F3E51 /* Sora-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-Bold.ttf"; path = "../src/assets/fonts/Sora-Bold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RenewableEnergyFund/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8803C1E23FFE4AB1814744F5 /* Sora-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-Regular.ttf"; path = "../src/assets/fonts/Sora-Regular.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RenewableEnergyFund-RenewableEnergyFundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RenewableEnergyFund-RenewableEnergyFundTests.release.xcconfig"; path = "Target Support Files/Pods-RenewableEnergyFund-RenewableEnergyFundTests/Pods-RenewableEnergyFund-RenewableEnergyFundTests.release.xcconfig"; sourceTree = "<group>"; };
+		C371F78BC8BC4CEFA52D40B6 /* Sora-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-SemiBold.ttf"; path = "../src/assets/fonts/Sora-SemiBold.ttf"; sourceTree = "<group>"; };
+		D3C595ECAD9345CA97C6064F /* Sora-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-Medium.ttf"; path = "../src/assets/fonts/Sora-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		6904680A6AB44777963F3E51 /* Sora-Bold.ttf */ = {isa = PBXFileReference; name = "Sora-Bold.ttf"; path = "../src/assets/fonts/Sora-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D3C595ECAD9345CA97C6064F /* Sora-Medium.ttf */ = {isa = PBXFileReference; name = "Sora-Medium.ttf"; path = "../src/assets/fonts/Sora-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8803C1E23FFE4AB1814744F5 /* Sora-Regular.ttf */ = {isa = PBXFileReference; name = "Sora-Regular.ttf"; path = "../src/assets/fonts/Sora-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C371F78BC8BC4CEFA52D40B6 /* Sora-SemiBold.ttf */ = {isa = PBXFileReference; name = "Sora-SemiBold.ttf"; path = "../src/assets/fonts/Sora-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +114,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		70B2C2753D524508B2D3D875 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6904680A6AB44777963F3E51 /* Sora-Bold.ttf */,
+				D3C595ECAD9345CA97C6064F /* Sora-Medium.ttf */,
+				8803C1E23FFE4AB1814744F5 /* Sora-Regular.ttf */,
+				C371F78BC8BC4CEFA52D40B6 /* Sora-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,18 +168,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		70B2C2753D524508B2D3D875 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				6904680A6AB44777963F3E51 /* Sora-Bold.ttf */,
-				D3C595ECAD9345CA97C6064F /* Sora-Medium.ttf */,
-				8803C1E23FFE4AB1814744F5 /* Sora-Regular.ttf */,
-				C371F78BC8BC4CEFA52D40B6 /* Sora-SemiBold.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -589,7 +589,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -597,6 +597,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -617,12 +618,18 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -660,9 +667,13 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -680,12 +691,18 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
