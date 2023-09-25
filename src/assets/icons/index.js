@@ -1,3 +1,4 @@
+export { default as ArrowBackIcon } from './arrow-back.svg'
 export { default as EyeOffIcon } from './eye-off.svg'
 export { default as EyeOnIcon } from './eye-on.svg'
 export { default as HomeIcon } from './home.svg'
