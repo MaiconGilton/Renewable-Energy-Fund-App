@@ -1,3 +1,4 @@
+import { CustomModalProvider } from '@components/CustomModal';
 import { Navigator } from '@navigation';
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
@@ -16,6 +17,7 @@ function App(): JSX.Element {
         <SafeAreaView style={{ flex: 1 }}>
           <NavigationContainer>
             <Navigator />
+            <CustomModalProvider />
           </NavigationContainer>
         </SafeAreaView>
       </PersistGate>

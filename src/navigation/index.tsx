@@ -1,4 +1,5 @@
 import { HomeIcon, PortfolioIcon, TradeIcon } from '@assets/icons';
+import { initModalService } from '@components/CustomModal';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
 import { THEME_COLORS } from '@theme/colors';
@@ -83,6 +84,8 @@ function AppStack() {
 }
 
 export function Navigator() {
+  initModalService()
+
   return (
     <Stack.Navigator
       screenOptions={{
