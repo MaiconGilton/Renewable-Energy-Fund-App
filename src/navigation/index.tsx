@@ -7,6 +7,7 @@ import LoginScreen from '@screens/login';
 import PortfolioScreen from '@screens/portfolio';
 import SignUpScreen from '@screens/signup';
 import TradeScreen from '@screens/trade';
+import UserProfileScreen from '@screens/user-profile';
 import { THEME_COLORS } from '@theme/colors';
 import { THEME_FONTS } from '@theme/fonts';
 import React from 'react';
