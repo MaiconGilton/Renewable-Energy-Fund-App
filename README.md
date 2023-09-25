@@ -4,13 +4,27 @@ This is a React Native app created for a Coderbyte test project using Redux and 
 
 ## Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+### Step 1: Clone the repository and install all dependencies
 
-## Step 1: Start the Metro Server
+After cloning this project to your local machine run the following command to install all the dependencies:
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+```bash
+# using npm
+npm install
 
-To start Metro, run the following command from the _root_ of your React Native project:
+# OR using Yarn
+yarn 
+```
+
+If you intent to run this project on iOS(XCode), you should also install all Pod dependecies:
+
+```bash
+npx pod-install ios
+```
+
+### Step 2: Start the Metro Server
+
+First, you will need to start **Metro**, by running the following command from the _root_ of your React Native project:
 
 ```bash
 # using npm
@@ -20,7 +34,7 @@ npm start
 yarn start
 ```
 
-## Step 2: Start your Application
+### Step 2: Start your Application
 
 Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
