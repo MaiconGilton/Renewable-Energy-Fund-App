@@ -3,6 +3,7 @@ import { initModalService } from '@components/CustomModal';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
 import LoginScreen from '@screens/login';
+import TradeScreen from '@screens/trade';
 import { THEME_COLORS } from '@theme/colors';
 import { THEME_FONTS } from '@theme/fonts';
 import React from 'react';
